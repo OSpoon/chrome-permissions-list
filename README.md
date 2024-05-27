@@ -1,4 +1,3 @@
-
 ## Chrome 扩展程序权限列表
 
 >下面列出了所有可用权限以及由特定权限触发的所有警告。
@@ -83,4 +82,4 @@
 | webRequest | 授予对 chrome.webRequest API 的访问权限。 |
 | webRequestBlocking | 允许使用 chrome.webRequest API 进行屏蔽。 |
 
-PS: 数据来源 [permissions-list](https://developer.chrome.com/docs/extensions/reference/permissions-list?hl=zh-cn),同步时间2024/5/27 15:22:22
+PS: 数据来源 [permissions-list](https://developer.chrome.com/docs/extensions/reference/permissions-list?hl=zh-cn),同步时间5/27/2024, 8:15:02 AM
