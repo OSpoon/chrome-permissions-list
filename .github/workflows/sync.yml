@@ -29,3 +29,5 @@ jobs:
 
       - name: Run the CLI script
         run: node bin/cli.mjs
+      - name: List files in root directory
+        run: ls -la # 列出根目录中的文件，以验证生成的文件
