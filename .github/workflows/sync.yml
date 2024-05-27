@@ -41,4 +41,4 @@ jobs:
           git commit -m "Update README.md from GitHub Actions"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CHROME_PERMISSIONS_LIST_GITHUB_TOKEN }}
