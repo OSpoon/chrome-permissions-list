@@ -13,6 +13,12 @@ const agent = new HttpsProxyAgent('http://127.0.0.1:9981')
 
 export const isDev = process.env.CHROME_PERMISSIONS_LIST_ENV === 'development'
 
+export function time() {
+  return new Date().toLocaleString('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+  })
+}
+
 export async function getHtmlContent() {
   try {
     log('[getHtmlContent] 开始获取 HTML 内容')
@@ -54,7 +60,7 @@ export function toMarkdownTable(parserResult: { title: string | undefined, descr
 | --- | --- |
 ${parserResult.map(item => `| ${item.title} | ${item.description} |`).join('\n')}
 
-PS: 数据来源 [permissions-list](https://developer.chrome.com/docs/extensions/reference/permissions-list?hl=zh-cn),同步时间${new Date().toLocaleString()}
+PS: 数据来源 [permissions-list](https://developer.chrome.com/docs/extensions/reference/permissions-list?hl=zh-cn),同步时间${time()}
 `
   return content
 }
