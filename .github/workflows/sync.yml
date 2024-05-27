@@ -25,7 +25,7 @@ jobs:
         run: npm install -g pnpm@9.0.2 && npm install
 
       - name: Build the project
-        run: npm run build
+        run: pnpm run build
 
       - name: Run the CLI script
         run: node bin/cli.mjs
