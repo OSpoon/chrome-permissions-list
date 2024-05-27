@@ -6,6 +6,9 @@ on:
     - cron: '0 0 1 * *'
   workflow_dispatch: # 允许手动触发
 
+permissions:
+  contents: write # 添加这一行以确保 GITHUB_TOKEN 有写权限
+
 jobs:
   sync:
     runs-on: ubuntu-latest
