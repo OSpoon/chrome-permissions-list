@@ -84,4 +84,4 @@
 | webRequest | 授予对chrome.webRequest API 的访问权限。 |
 | webRequestBlocking | 允许使用chrome.webRequest API 进行屏蔽。 |
 
-PS: 数据来源 [permissions-list](https://developer.chrome.com/docs/extensions/reference/permissions-list?hl=zh-cn),同步时间2026/10/1 23:03:55
+PS: 数据来源 [permissions-list](https://developer.chrome.com/docs/extensions/reference/permissions-list?hl=zh-cn),同步时间2026/11/1 22:43:32
